@@ -1,0 +1,616 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BAD_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+BAD_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+CCondition	threadlock.h	/^        CCondition()$/;"	f	class:CCondition	access:public	signature:()
+CCondition	threadlock.h	/^class CCondition   $/;"	c
+CCondition::CCondition	threadlock.h	/^        CCondition()$/;"	f	class:CCondition	access:public	signature:()
+CCondition::m_cond	threadlock.h	/^        pthread_cond_t m_cond;$/;"	m	class:CCondition	access:private
+CCondition::m_mutex	threadlock.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:CCondition	access:private
+CCondition::signal	threadlock.h	/^        bool signal()$/;"	f	class:CCondition	access:public	signature:()
+CCondition::wait	threadlock.h	/^        bool wait()$/;"	f	class:CCondition	access:public	signature:()
+CCondition::~CCondition	threadlock.h	/^        ~CCondition()$/;"	f	class:CCondition	access:public	signature:()
+CFLAGS	Makefile	/^CFLAGS = -g -c$/;"	m
+CHECK_STATE	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	class:http_conn	access:public
+CHECK_STATE	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	class:http_conn	access:public
+CHECK_STATE_CONTENT	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_CONTENT	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_HEADER	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_HEADER	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_REQUESTLINE	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_REQUESTLINE	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CLOSED_CONNECTION	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+CLOSED_CONNECTION	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+CONNECT	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+CONNECT	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+CONNECT_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+CONNECT_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+CSemaphore	threadlock.h	/^        CSemaphore()$/;"	f	class:CSemaphore	access:public	signature:()
+CSemaphore	threadlock.h	/^class CSemaphore$/;"	c
+CSemaphore::CSemaphore	threadlock.h	/^        CSemaphore()$/;"	f	class:CSemaphore	access:public	signature:()
+CSemaphore::m_sem	threadlock.h	/^        sem_t m_sem;$/;"	m	class:CSemaphore	access:private
+CSemaphore::post	threadlock.h	/^        bool post()$/;"	f	class:CSemaphore	access:public	signature:()
+CSemaphore::wait	threadlock.h	/^        bool wait()$/;"	f	class:CSemaphore	access:public	signature:()
+CSemaphore::~CSemaphore	threadlock.h	/^        ~CSemaphore()$/;"	f	class:CSemaphore	access:public	signature:()
+CThreadMutex	threadlock.h	/^        CThreadMutex()$/;"	f	class:CThreadMutex	access:public	signature:()
+CThreadMutex	threadlock.h	/^class CThreadMutex $/;"	c
+CThreadMutex::CThreadMutex	threadlock.h	/^        CThreadMutex()$/;"	f	class:CThreadMutex	access:public	signature:()
+CThreadMutex::lock	threadlock.h	/^        bool lock()$/;"	f	class:CThreadMutex	access:public	signature:()
+CThreadMutex::m_mutex	threadlock.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:CThreadMutex	access:private
+CThreadMutex::unlock	threadlock.h	/^        bool unlock()$/;"	f	class:CThreadMutex	access:public	signature:()
+CThreadMutex::~CThreadMutex	threadlock.h	/^        ~CThreadMutex()$/;"	f	class:CThreadMutex	access:public	signature:()
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -lpthread -levent$/;"	m
+ConnectPvaServer	main.cpp	/^void ConnectPvaServer();$/;"	p	file:	signature:()
+DELETE	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+DELETE	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+DELETE_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+DELETE_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+FILENAME_LEN	http_conn.h	/^    static const int FILENAME_LEN = 200;$/;"	m	class:http_conn	access:public
+FILENAME_LEN	req_conn.h	/^    static const int FILENAME_LEN = 200;$/;"	m	class:http_conn	access:public
+FILE_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+FILE_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+FORBIDDEN_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+FORBIDDEN_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+GET	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+GET	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+GET_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+GET_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+HEAD	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+HEAD	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+HEAD_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+HEAD_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+HTTPCONNECTION_H	http_conn.h	2;"	d
+HTTP_CODE	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	class:http_conn	access:public
+HTTP_CODE	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	class:http_conn	access:public
+INTERNAL_ERROR	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+INTERNAL_ERROR	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+LINE_BAD	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_BAD	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OK	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OK	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OPEN	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OPEN	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_STATUS	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	class:http_conn	access:public
+LINE_STATUS	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	class:http_conn	access:public
+LOCKER_H	locker.h	2;"	d
+LoginPvaServer	threadpool.h	/^    bool LoginPvaServer(const char *mainIP, const char *standbyIP);$/;"	p	class:threadpool	access:private	signature:(const char *mainIP, const char *standbyIP)
+LoginPvaServer	threadpool.h	/^bool threadpool< T >::LoginPvaServer(const char *mainIP, const char *standbyIP)$/;"	f	class:threadpool	signature:(const char *mainIP, const char *standbyIP)
+MAX_EVENT_NUMBER	main.cpp	18;"	d	file:
+MAX_FD	main.cpp	17;"	d	file:
+METHOD	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	g	class:http_conn	access:public
+METHOD	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	g	class:http_conn	access:public
+NO_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+NO_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+NO_RESOURCE	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+NO_RESOURCE	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+OBJS	Makefile	/^OBJS = main.o job.o threadpool.o threadmanage.o tcpeventserver.o http_conn.o$/;"	m
+OPTIONS	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+OPTIONS	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+OPTIONS_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+OPTIONS_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+PATCH	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+PATCH	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+PATCH_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+PATCH_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+POST	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+POST	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+POST_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+POST_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+PUT	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+PUT	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+PUT_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+PUT_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+READ_BUFFER_SIZE	http_conn.h	/^    static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn	access:public
+READ_BUFFER_SIZE	req_conn.h	/^    static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn	access:public
+REQUEST_CONNECTION_H	req_conn.h	2;"	d
+ReadPvaEpoll	threadpool.h	/^    void ReadPvaEpoll();$/;"	p	class:threadpool	access:private	signature:()
+ReadPvaEpoll	threadpool.h	/^void threadpool< T >::ReadPvaEpoll()$/;"	f	class:threadpool	signature:()
+SetupEpollListen	threadpool.h	/^    bool SetupEpollListen();$/;"	p	class:threadpool	access:private	signature:()
+TARGET	Makefile	/^TARGET = http_main$/;"	m
+THREADLOCK_H	threadlock.h	2;"	d
+THREADPOOL_H	threadpool.h	2;"	d
+TRACE	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+TRACE	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+TRACE_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+TRACE_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+WRITE_BUFFER_SIZE	http_conn.h	/^    static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn	access:public
+WRITE_BUFFER_SIZE	req_conn.h	/^    static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn	access:public
+_MAIN_H_	main.h	2;"	d
+add_blank_line	http_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn	signature:()
+add_blank_line	http_conn.h	/^    bool add_blank_line();$/;"	p	class:http_conn	access:private	signature:()
+add_blank_line	req_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn	signature:()
+add_blank_line	req_conn.h	/^    bool add_blank_line();$/;"	p	class:http_conn	access:private	signature:()
+add_content	http_conn.cpp	/^bool http_conn::add_content( const char* content )$/;"	f	class:http_conn	signature:( const char* content )
+add_content	http_conn.h	/^    bool add_content( const char* content );$/;"	p	class:http_conn	access:private	signature:( const char* content )
+add_content	req_conn.cpp	/^bool http_conn::add_content( const char* content )$/;"	f	class:http_conn	signature:( const char* content )
+add_content	req_conn.h	/^    bool add_content( const char* content );$/;"	p	class:http_conn	access:private	signature:( const char* content )
+add_content_length	http_conn.cpp	/^bool http_conn::add_content_length( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+add_content_length	http_conn.h	/^    bool add_content_length( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+add_content_length	req_conn.cpp	/^bool http_conn::add_content_length( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+add_content_length	req_conn.h	/^    bool add_content_length( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+add_headers	http_conn.cpp	/^bool http_conn::add_headers( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+add_headers	http_conn.h	/^    bool add_headers( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+add_headers	req_conn.cpp	/^bool http_conn::add_headers( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+add_headers	req_conn.h	/^    bool add_headers( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+add_linger	http_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn	signature:()
+add_linger	http_conn.h	/^    bool add_linger();$/;"	p	class:http_conn	access:private	signature:()
+add_linger	req_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn	signature:()
+add_linger	req_conn.h	/^    bool add_linger();$/;"	p	class:http_conn	access:private	signature:()
+add_response	http_conn.cpp	/^bool http_conn::add_response( const char* format, ... )$/;"	f	class:http_conn	signature:( const char* format, ... )
+add_response	http_conn.h	/^    bool add_response( const char* format, ... );$/;"	p	class:http_conn	access:private	signature:( const char* format, ... )
+add_response	req_conn.cpp	/^bool http_conn::add_response( const char* format, ... )$/;"	f	class:http_conn	signature:( const char* format, ... )
+add_response	req_conn.h	/^    bool add_response( const char* format, ... );$/;"	p	class:http_conn	access:private	signature:( const char* format, ... )
+add_status_line	http_conn.cpp	/^bool http_conn::add_status_line( int status, const char* title )$/;"	f	class:http_conn	signature:( int status, const char* title )
+add_status_line	http_conn.h	/^    bool add_status_line( int status, const char* title );$/;"	p	class:http_conn	access:private	signature:( int status, const char* title )
+add_status_line	req_conn.cpp	/^bool http_conn::add_status_line( int status, const char* title )$/;"	f	class:http_conn	signature:( int status, const char* title )
+add_status_line	req_conn.h	/^    bool add_status_line( int status, const char* title );$/;"	p	class:http_conn	access:private	signature:( int status, const char* title )
+addfd	http_conn.cpp	/^void addfd( int epollfd, int fd, bool one_shot )$/;"	f	signature:( int epollfd, int fd, bool one_shot )
+addfd	main.cpp	/^extern int addfd( int epollfd, int fd, bool one_shot );$/;"	p	file:	signature:( int epollfd, int fd, bool one_shot )
+addfd	main.h	/^extern int addfd( int epollfd, int fd, bool one_shot );$/;"	p	signature:( int epollfd, int fd, bool one_shot )
+addfd	req_conn.cpp	/^void addfd( int epollfd, int fd, bool one_shot )$/;"	f	signature:( int epollfd, int fd, bool one_shot )
+addsig	main.cpp	/^void addsig( int sig, void( handler )(int), bool restart = true )$/;"	f	signature:( int sig, void( handler )(int), bool restart = true )
+addsig	main.cpp	/^void addsig( int sig, void( handler )(int), bool restart = true );$/;"	p	file:	signature:( int sig, void( handler )(int), bool restart = true )
+addsig	main.h	/^void addsig( int sig, void( handler )(int), bool restart = true );$/;"	p	signature:( int sig, void( handler )(int), bool restart = true )
+append	threadpool.h	/^    bool append( T* request );$/;"	p	class:threadpool	access:public	signature:( T* request )
+append	threadpool.h	/^bool threadpool< T >::append( T* request )$/;"	f	class:threadpool	signature:( T* request )
+close_conn	http_conn.cpp	/^void http_conn::close_conn( bool real_close )$/;"	f	class:http_conn	signature:( bool real_close )
+close_conn	http_conn.h	/^    void close_conn( bool real_close = true );$/;"	p	class:http_conn	access:public	signature:( bool real_close = true )
+close_conn	req_conn.cpp	/^void http_conn::close_conn( bool real_close )$/;"	f	class:http_conn	signature:( bool real_close )
+close_conn	req_conn.h	/^    void close_conn( bool real_close = true );$/;"	p	class:http_conn	access:public	signature:( bool real_close = true )
+cond	locker.h	/^    cond()$/;"	f	class:cond	access:public	signature:()
+cond	locker.h	/^class cond$/;"	c
+cond::cond	locker.h	/^    cond()$/;"	f	class:cond	access:public	signature:()
+cond::m_cond	locker.h	/^    pthread_cond_t m_cond;$/;"	m	class:cond	access:private
+cond::m_mutex	locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:cond	access:private
+cond::signal	locker.h	/^    bool signal()$/;"	f	class:cond	access:public	signature:()
+cond::wait	locker.h	/^    bool wait()$/;"	f	class:cond	access:public	signature:()
+cond::~cond	locker.h	/^    ~cond()$/;"	f	class:cond	access:public	signature:()
+do_request	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn	signature:()
+do_request	http_conn.h	/^    HTTP_CODE do_request();$/;"	p	class:http_conn	access:private	signature:()
+do_request	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn	signature:()
+do_request	req_conn.h	/^    HTTP_CODE do_request();$/;"	p	class:http_conn	access:private	signature:()
+doc_root	http_conn.cpp	/^const char* doc_root = "\/mnt\/hgfs\/linux_study";$/;"	v
+doc_root	req_conn.cpp	/^const char* doc_root = "\/mnt\/hgfs\/linux_study";$/;"	v
+error_400_form	http_conn.cpp	/^const char* error_400_form = "Your request has bad syntax or is inherently impossible to satisfy.\\n";$/;"	v
+error_400_form	req_conn.cpp	/^const char* error_400_form = "Your request has bad syntax or is inherently impossible to satisfy.\\n";$/;"	v
+error_400_title	http_conn.cpp	/^const char* error_400_title = "Bad Request";$/;"	v
+error_400_title	req_conn.cpp	/^const char* error_400_title = "Bad Request";$/;"	v
+error_403_form	http_conn.cpp	/^const char* error_403_form = "You do not have permission to get file from this server.\\n";$/;"	v
+error_403_form	req_conn.cpp	/^const char* error_403_form = "You do not have permission to get file from this server.\\n";$/;"	v
+error_403_title	http_conn.cpp	/^const char* error_403_title = "Forbidden";$/;"	v
+error_403_title	req_conn.cpp	/^const char* error_403_title = "Forbidden";$/;"	v
+error_404_form	http_conn.cpp	/^const char* error_404_form = "The requested file was not found on this server.\\n";$/;"	v
+error_404_form	req_conn.cpp	/^const char* error_404_form = "The requested file was not found on this server.\\n";$/;"	v
+error_404_title	http_conn.cpp	/^const char* error_404_title = "Not Found";$/;"	v
+error_404_title	req_conn.cpp	/^const char* error_404_title = "Not Found";$/;"	v
+error_500_form	http_conn.cpp	/^const char* error_500_form = "There was an unusual problem serving the requested file.\\n";$/;"	v
+error_500_form	req_conn.cpp	/^const char* error_500_form = "There was an unusual problem serving the requested file.\\n";$/;"	v
+error_500_title	http_conn.cpp	/^const char* error_500_title = "Internal Error";$/;"	v
+error_500_title	req_conn.cpp	/^const char* error_500_title = "Internal Error";$/;"	v
+get_line	http_conn.h	/^    char* get_line() { return m_read_buf + m_start_line; }$/;"	f	class:http_conn	access:private	signature:()
+get_line	req_conn.h	/^    char* get_line() { return m_read_buf + m_start_line; }$/;"	f	class:http_conn	access:private	signature:()
+get_threads	threadpool.h	/^    pthread_t* get_threads(){ return m_threads; }$/;"	f	class:threadpool	access:public	signature:()
+http_conn	http_conn.h	/^    http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn	http_conn.h	/^class http_conn$/;"	c
+http_conn	req_conn.h	/^    http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn	req_conn.h	/^class http_conn$/;"	c
+http_conn::BAD_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::BAD_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::CHECK_STATE	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	class:http_conn	access:public
+http_conn::CHECK_STATE	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	class:http_conn	access:public
+http_conn::CHECK_STATE_CONTENT	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_CONTENT	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_HEADER	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_HEADER	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_REQUESTLINE	http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_REQUESTLINE	req_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CLOSED_CONNECTION	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::CLOSED_CONNECTION	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::CONNECT	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::CONNECT	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::CONNECT_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::CONNECT_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::DELETE	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::DELETE	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::DELETE_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::DELETE_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::FILENAME_LEN	http_conn.h	/^    static const int FILENAME_LEN = 200;$/;"	m	class:http_conn	access:public
+http_conn::FILENAME_LEN	req_conn.h	/^    static const int FILENAME_LEN = 200;$/;"	m	class:http_conn	access:public
+http_conn::FILE_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::FILE_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::FORBIDDEN_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::FORBIDDEN_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::GET	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::GET	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::GET_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::GET_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::HEAD	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::HEAD	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::HEAD_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::HEAD_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::HTTP_CODE	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	class:http_conn	access:public
+http_conn::HTTP_CODE	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	class:http_conn	access:public
+http_conn::INTERNAL_ERROR	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::INTERNAL_ERROR	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::LINE_BAD	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_BAD	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_OK	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_OK	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_OPEN	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_OPEN	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_STATUS	http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	class:http_conn	access:public
+http_conn::LINE_STATUS	req_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	class:http_conn	access:public
+http_conn::METHOD	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	g	class:http_conn	access:public
+http_conn::METHOD	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	g	class:http_conn	access:public
+http_conn::NO_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::NO_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::NO_RESOURCE	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::NO_RESOURCE	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::OPTIONS	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::OPTIONS	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::OPTIONS_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::OPTIONS_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::PATCH	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::PATCH	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::PATCH_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::PATCH_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::POST	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::POST	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::POST_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::POST_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::PUT	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::PUT	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::PUT_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::PUT_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::READ_BUFFER_SIZE	http_conn.h	/^    static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn	access:public
+http_conn::READ_BUFFER_SIZE	req_conn.h	/^    static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn	access:public
+http_conn::TRACE	http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::TRACE	req_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+http_conn::TRACE_REQUEST	http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::TRACE_REQUEST	req_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, HEAD_REQUEST, POST_REQUEST, PUT_REQUEST, DELETE_REQUEST, TRACE_REQUEST, OPTIONS_REQUEST, CONNECT_REQUEST, PATCH_REQUEST\/*add by tu--处理方法head请求*\/, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::WRITE_BUFFER_SIZE	http_conn.h	/^    static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn	access:public
+http_conn::WRITE_BUFFER_SIZE	req_conn.h	/^    static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn	access:public
+http_conn::add_blank_line	http_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn	signature:()
+http_conn::add_blank_line	http_conn.h	/^    bool add_blank_line();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::add_blank_line	req_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn	signature:()
+http_conn::add_blank_line	req_conn.h	/^    bool add_blank_line();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::add_content	http_conn.cpp	/^bool http_conn::add_content( const char* content )$/;"	f	class:http_conn	signature:( const char* content )
+http_conn::add_content	http_conn.h	/^    bool add_content( const char* content );$/;"	p	class:http_conn	access:private	signature:( const char* content )
+http_conn::add_content	req_conn.cpp	/^bool http_conn::add_content( const char* content )$/;"	f	class:http_conn	signature:( const char* content )
+http_conn::add_content	req_conn.h	/^    bool add_content( const char* content );$/;"	p	class:http_conn	access:private	signature:( const char* content )
+http_conn::add_content_length	http_conn.cpp	/^bool http_conn::add_content_length( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+http_conn::add_content_length	http_conn.h	/^    bool add_content_length( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+http_conn::add_content_length	req_conn.cpp	/^bool http_conn::add_content_length( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+http_conn::add_content_length	req_conn.h	/^    bool add_content_length( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+http_conn::add_headers	http_conn.cpp	/^bool http_conn::add_headers( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+http_conn::add_headers	http_conn.h	/^    bool add_headers( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+http_conn::add_headers	req_conn.cpp	/^bool http_conn::add_headers( int content_len )$/;"	f	class:http_conn	signature:( int content_len )
+http_conn::add_headers	req_conn.h	/^    bool add_headers( int content_length );$/;"	p	class:http_conn	access:private	signature:( int content_length )
+http_conn::add_linger	http_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn	signature:()
+http_conn::add_linger	http_conn.h	/^    bool add_linger();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::add_linger	req_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn	signature:()
+http_conn::add_linger	req_conn.h	/^    bool add_linger();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::add_response	http_conn.cpp	/^bool http_conn::add_response( const char* format, ... )$/;"	f	class:http_conn	signature:( const char* format, ... )
+http_conn::add_response	http_conn.h	/^    bool add_response( const char* format, ... );$/;"	p	class:http_conn	access:private	signature:( const char* format, ... )
+http_conn::add_response	req_conn.cpp	/^bool http_conn::add_response( const char* format, ... )$/;"	f	class:http_conn	signature:( const char* format, ... )
+http_conn::add_response	req_conn.h	/^    bool add_response( const char* format, ... );$/;"	p	class:http_conn	access:private	signature:( const char* format, ... )
+http_conn::add_status_line	http_conn.cpp	/^bool http_conn::add_status_line( int status, const char* title )$/;"	f	class:http_conn	signature:( int status, const char* title )
+http_conn::add_status_line	http_conn.h	/^    bool add_status_line( int status, const char* title );$/;"	p	class:http_conn	access:private	signature:( int status, const char* title )
+http_conn::add_status_line	req_conn.cpp	/^bool http_conn::add_status_line( int status, const char* title )$/;"	f	class:http_conn	signature:( int status, const char* title )
+http_conn::add_status_line	req_conn.h	/^    bool add_status_line( int status, const char* title );$/;"	p	class:http_conn	access:private	signature:( int status, const char* title )
+http_conn::close_conn	http_conn.cpp	/^void http_conn::close_conn( bool real_close )$/;"	f	class:http_conn	signature:( bool real_close )
+http_conn::close_conn	http_conn.h	/^    void close_conn( bool real_close = true );$/;"	p	class:http_conn	access:public	signature:( bool real_close = true )
+http_conn::close_conn	req_conn.cpp	/^void http_conn::close_conn( bool real_close )$/;"	f	class:http_conn	signature:( bool real_close )
+http_conn::close_conn	req_conn.h	/^    void close_conn( bool real_close = true );$/;"	p	class:http_conn	access:public	signature:( bool real_close = true )
+http_conn::do_request	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn	signature:()
+http_conn::do_request	http_conn.h	/^    HTTP_CODE do_request();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::do_request	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn	signature:()
+http_conn::do_request	req_conn.h	/^    HTTP_CODE do_request();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::get_line	http_conn.h	/^    char* get_line() { return m_read_buf + m_start_line; }$/;"	f	class:http_conn	access:private	signature:()
+http_conn::get_line	req_conn.h	/^    char* get_line() { return m_read_buf + m_start_line; }$/;"	f	class:http_conn	access:private	signature:()
+http_conn::http_conn	http_conn.h	/^    http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn::http_conn	req_conn.h	/^    http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn::init	http_conn.cpp	/^void http_conn::init( int sockfd, const sockaddr_in& addr )$/;"	f	class:http_conn	signature:( int sockfd, const sockaddr_in& addr )
+http_conn::init	http_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn	signature:()
+http_conn::init	http_conn.h	/^    void init( int sockfd, const sockaddr_in& addr );$/;"	p	class:http_conn	access:public	signature:( int sockfd, const sockaddr_in& addr )
+http_conn::init	http_conn.h	/^    void init();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::init	req_conn.cpp	/^void http_conn::init( int sockfd, const sockaddr_in& addr )$/;"	f	class:http_conn	signature:( int sockfd, const sockaddr_in& addr )
+http_conn::init	req_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn	signature:()
+http_conn::init	req_conn.h	/^    void init( int sockfd, const sockaddr_in& addr );$/;"	p	class:http_conn	access:public	signature:( int sockfd, const sockaddr_in& addr )
+http_conn::init	req_conn.h	/^    void init();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::m_address	http_conn.h	/^    sockaddr_in m_address;$/;"	m	class:http_conn	access:private
+http_conn::m_address	req_conn.h	/^    sockaddr_in m_address;$/;"	m	class:http_conn	access:private
+http_conn::m_check_state	http_conn.h	/^    CHECK_STATE m_check_state;$/;"	m	class:http_conn	access:private
+http_conn::m_check_state	req_conn.h	/^    CHECK_STATE m_check_state;$/;"	m	class:http_conn	access:private
+http_conn::m_checked_idx	http_conn.h	/^    int m_checked_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_checked_idx	req_conn.h	/^    int m_checked_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_content_length	http_conn.h	/^    int m_content_length;$/;"	m	class:http_conn	access:private
+http_conn::m_content_length	req_conn.h	/^    int m_content_length;$/;"	m	class:http_conn	access:private
+http_conn::m_epollfd	http_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+http_conn::m_epollfd	http_conn.h	/^    static int m_epollfd;$/;"	m	class:http_conn	access:public
+http_conn::m_epollfd	req_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+http_conn::m_epollfd	req_conn.h	/^    static int m_epollfd;$/;"	m	class:http_conn	access:public
+http_conn::m_file_address	http_conn.h	/^    char* m_file_address;$/;"	m	class:http_conn	access:private
+http_conn::m_file_address	req_conn.h	/^    char* m_file_address;$/;"	m	class:http_conn	access:private
+http_conn::m_file_stat	http_conn.h	/^    struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat	access:private
+http_conn::m_file_stat	req_conn.h	/^    struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat	access:private
+http_conn::m_host	http_conn.h	/^    char* m_host;$/;"	m	class:http_conn	access:private
+http_conn::m_host	req_conn.h	/^    char* m_host;$/;"	m	class:http_conn	access:private
+http_conn::m_iv	http_conn.h	/^    struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec	access:private
+http_conn::m_iv	req_conn.h	/^    struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec	access:private
+http_conn::m_iv_count	http_conn.h	/^    int m_iv_count;$/;"	m	class:http_conn	access:private
+http_conn::m_iv_count	req_conn.h	/^    int m_iv_count;$/;"	m	class:http_conn	access:private
+http_conn::m_linger	http_conn.h	/^    bool m_linger;$/;"	m	class:http_conn	access:private
+http_conn::m_linger	req_conn.h	/^    bool m_linger;$/;"	m	class:http_conn	access:private
+http_conn::m_method	http_conn.h	/^    METHOD m_method;$/;"	m	class:http_conn	access:private
+http_conn::m_method	req_conn.h	/^    METHOD m_method;$/;"	m	class:http_conn	access:private
+http_conn::m_read_buf	http_conn.h	/^    char m_read_buf[ READ_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+http_conn::m_read_buf	req_conn.h	/^    char m_read_buf[ READ_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+http_conn::m_read_idx	http_conn.h	/^    int m_read_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_read_idx	req_conn.h	/^    int m_read_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_real_file	http_conn.h	/^    char m_real_file[ FILENAME_LEN ];$/;"	m	class:http_conn	access:private
+http_conn::m_real_file	req_conn.h	/^    char m_real_file[ FILENAME_LEN ];$/;"	m	class:http_conn	access:private
+http_conn::m_request	http_conn.h	/^    HTTP_CODE m_request;$/;"	m	class:http_conn	access:private
+http_conn::m_request	req_conn.h	/^    HTTP_CODE m_request;$/;"	m	class:http_conn	access:private
+http_conn::m_sockfd	http_conn.h	/^    int m_sockfd;$/;"	m	class:http_conn	access:private
+http_conn::m_sockfd	req_conn.h	/^    int m_sockfd;$/;"	m	class:http_conn	access:private
+http_conn::m_start_line	http_conn.h	/^    int m_start_line;$/;"	m	class:http_conn	access:private
+http_conn::m_start_line	req_conn.h	/^    int m_start_line;$/;"	m	class:http_conn	access:private
+http_conn::m_url	http_conn.h	/^    char* m_url;$/;"	m	class:http_conn	access:private
+http_conn::m_url	req_conn.h	/^    char* m_url;$/;"	m	class:http_conn	access:private
+http_conn::m_user_count	http_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+http_conn::m_user_count	http_conn.h	/^    static int m_user_count;$/;"	m	class:http_conn	access:public
+http_conn::m_user_count	req_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+http_conn::m_user_count	req_conn.h	/^    static int m_user_count;$/;"	m	class:http_conn	access:public
+http_conn::m_version	http_conn.h	/^    char* m_version;$/;"	m	class:http_conn	access:private
+http_conn::m_version	req_conn.h	/^    char* m_version;$/;"	m	class:http_conn	access:private
+http_conn::m_write_buf	http_conn.h	/^    char m_write_buf[ WRITE_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+http_conn::m_write_buf	req_conn.h	/^    char m_write_buf[ WRITE_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+http_conn::m_write_idx	http_conn.h	/^    int m_write_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_write_idx	req_conn.h	/^    int m_write_idx;$/;"	m	class:http_conn	access:private
+http_conn::parse_content	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content( char* text )$/;"	f	class:http_conn	signature:( char* text )
+http_conn::parse_content	http_conn.h	/^    HTTP_CODE parse_content( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+http_conn::parse_content	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content( char* text )$/;"	f	class:http_conn	signature:( char* text )
+http_conn::parse_content	req_conn.h	/^    HTTP_CODE parse_content( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+http_conn::parse_headers	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers( char* text )$/;"	f	class:http_conn	signature:( char* text )
+http_conn::parse_headers	http_conn.h	/^    HTTP_CODE parse_headers( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+http_conn::parse_headers	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers( char* text )$/;"	f	class:http_conn	signature:( char* text )
+http_conn::parse_headers	req_conn.h	/^    HTTP_CODE parse_headers( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+http_conn::parse_line	http_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn	signature:()
+http_conn::parse_line	http_conn.h	/^    LINE_STATUS parse_line();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::parse_line	req_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn	signature:()
+http_conn::parse_line	req_conn.h	/^    LINE_STATUS parse_line();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::parse_request_line	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line( char* text )$/;"	f	class:http_conn	signature:( char* text )
+http_conn::parse_request_line	http_conn.h	/^    HTTP_CODE parse_request_line( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+http_conn::parse_request_line	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line( char* text )$/;"	f	class:http_conn	signature:( char* text )
+http_conn::parse_request_line	req_conn.h	/^    HTTP_CODE parse_request_line( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+http_conn::process	http_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn	signature:()
+http_conn::process	http_conn.h	/^    void process();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::process	req_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn	signature:()
+http_conn::process	req_conn.h	/^    void process();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::process_read	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn	signature:()
+http_conn::process_read	http_conn.h	/^    HTTP_CODE process_read();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::process_read	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn	signature:()
+http_conn::process_read	req_conn.h	/^    HTTP_CODE process_read();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::process_write	http_conn.cpp	/^bool http_conn::process_write( HTTP_CODE ret )$/;"	f	class:http_conn	signature:( HTTP_CODE ret )
+http_conn::process_write	http_conn.h	/^    bool process_write( HTTP_CODE ret );$/;"	p	class:http_conn	access:private	signature:( HTTP_CODE ret )
+http_conn::process_write	req_conn.cpp	/^bool http_conn::process_write( HTTP_CODE ret )$/;"	f	class:http_conn	signature:( HTTP_CODE ret )
+http_conn::process_write	req_conn.h	/^    bool process_write( HTTP_CODE ret );$/;"	p	class:http_conn	access:private	signature:( HTTP_CODE ret )
+http_conn::read	http_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn	signature:()
+http_conn::read	http_conn.h	/^    bool read();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::read	req_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn	signature:()
+http_conn::read	req_conn.h	/^    bool read();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::unmap	http_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn	signature:()
+http_conn::unmap	http_conn.h	/^    void unmap();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::unmap	req_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn	signature:()
+http_conn::unmap	req_conn.h	/^    void unmap();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::write	http_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn	signature:()
+http_conn::write	http_conn.h	/^    bool write();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::write	req_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn	signature:()
+http_conn::write	req_conn.h	/^    bool write();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::~http_conn	http_conn.h	/^    ~http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn::~http_conn	req_conn.h	/^    ~http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+init	http_conn.cpp	/^void http_conn::init( int sockfd, const sockaddr_in& addr )$/;"	f	class:http_conn	signature:( int sockfd, const sockaddr_in& addr )
+init	http_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn	signature:()
+init	http_conn.h	/^    void init( int sockfd, const sockaddr_in& addr );$/;"	p	class:http_conn	access:public	signature:( int sockfd, const sockaddr_in& addr )
+init	http_conn.h	/^    void init();$/;"	p	class:http_conn	access:private	signature:()
+init	req_conn.cpp	/^void http_conn::init( int sockfd, const sockaddr_in& addr )$/;"	f	class:http_conn	signature:( int sockfd, const sockaddr_in& addr )
+init	req_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn	signature:()
+init	req_conn.h	/^    void init( int sockfd, const sockaddr_in& addr );$/;"	p	class:http_conn	access:public	signature:( int sockfd, const sockaddr_in& addr )
+init	req_conn.h	/^    void init();$/;"	p	class:http_conn	access:private	signature:()
+lock	locker.h	/^    bool lock()$/;"	f	class:locker	access:public	signature:()
+lock	threadlock.h	/^        bool lock()$/;"	f	class:CThreadMutex	access:public	signature:()
+locker	locker.h	/^    locker()$/;"	f	class:locker	access:public	signature:()
+locker	locker.h	/^class locker$/;"	c
+locker::lock	locker.h	/^    bool lock()$/;"	f	class:locker	access:public	signature:()
+locker::locker	locker.h	/^    locker()$/;"	f	class:locker	access:public	signature:()
+locker::m_mutex	locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:locker	access:private
+locker::unlock	locker.h	/^    bool unlock()$/;"	f	class:locker	access:public	signature:()
+locker::~locker	locker.h	/^    ~locker()$/;"	f	class:locker	access:public	signature:()
+m_address	http_conn.h	/^    sockaddr_in m_address;$/;"	m	class:http_conn	access:private
+m_address	req_conn.h	/^    sockaddr_in m_address;$/;"	m	class:http_conn	access:private
+m_check_state	http_conn.h	/^    CHECK_STATE m_check_state;$/;"	m	class:http_conn	access:private
+m_check_state	req_conn.h	/^    CHECK_STATE m_check_state;$/;"	m	class:http_conn	access:private
+m_checked_idx	http_conn.h	/^    int m_checked_idx;$/;"	m	class:http_conn	access:private
+m_checked_idx	req_conn.h	/^    int m_checked_idx;$/;"	m	class:http_conn	access:private
+m_cond	locker.h	/^    pthread_cond_t m_cond;$/;"	m	class:cond	access:private
+m_cond	threadlock.h	/^        pthread_cond_t m_cond;$/;"	m	class:CCondition	access:private
+m_content_length	http_conn.h	/^    int m_content_length;$/;"	m	class:http_conn	access:private
+m_content_length	req_conn.h	/^    int m_content_length;$/;"	m	class:http_conn	access:private
+m_epollfd	http_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+m_epollfd	http_conn.h	/^    static int m_epollfd;$/;"	m	class:http_conn	access:public
+m_epollfd	req_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+m_epollfd	req_conn.h	/^    static int m_epollfd;$/;"	m	class:http_conn	access:public
+m_epollfd	threadpool.h	/^    int m_epollfd;$/;"	m	class:threadpool	access:private
+m_file_address	http_conn.h	/^    char* m_file_address;$/;"	m	class:http_conn	access:private
+m_file_address	req_conn.h	/^    char* m_file_address;$/;"	m	class:http_conn	access:private
+m_file_stat	http_conn.h	/^    struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat	access:private
+m_file_stat	req_conn.h	/^    struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat	access:private
+m_host	http_conn.h	/^    char* m_host;$/;"	m	class:http_conn	access:private
+m_host	req_conn.h	/^    char* m_host;$/;"	m	class:http_conn	access:private
+m_iv	http_conn.h	/^    struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec	access:private
+m_iv	req_conn.h	/^    struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec	access:private
+m_iv_count	http_conn.h	/^    int m_iv_count;$/;"	m	class:http_conn	access:private
+m_iv_count	req_conn.h	/^    int m_iv_count;$/;"	m	class:http_conn	access:private
+m_linger	http_conn.h	/^    bool m_linger;$/;"	m	class:http_conn	access:private
+m_linger	req_conn.h	/^    bool m_linger;$/;"	m	class:http_conn	access:private
+m_mainIP	threadpool.h	/^    const char *m_mainIP;$/;"	m	class:threadpool	access:private
+m_max_requests	threadpool.h	/^    int m_max_requests;$/;"	m	class:threadpool	access:private
+m_method	http_conn.h	/^    METHOD m_method;$/;"	m	class:http_conn	access:private
+m_method	req_conn.h	/^    METHOD m_method;$/;"	m	class:http_conn	access:private
+m_mutex	locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:cond	access:private
+m_mutex	locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:locker	access:private
+m_mutex	threadlock.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:CCondition	access:private
+m_mutex	threadlock.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:CThreadMutex	access:private
+m_queuelocker	threadpool.h	/^    locker m_queuelocker;$/;"	m	class:threadpool	access:private
+m_queuestat	threadpool.h	/^    sem m_queuestat;$/;"	m	class:threadpool	access:private
+m_read_buf	http_conn.h	/^    char m_read_buf[ READ_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+m_read_buf	req_conn.h	/^    char m_read_buf[ READ_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+m_read_idx	http_conn.h	/^    int m_read_idx;$/;"	m	class:http_conn	access:private
+m_read_idx	req_conn.h	/^    int m_read_idx;$/;"	m	class:http_conn	access:private
+m_real_file	http_conn.h	/^    char m_real_file[ FILENAME_LEN ];$/;"	m	class:http_conn	access:private
+m_real_file	req_conn.h	/^    char m_real_file[ FILENAME_LEN ];$/;"	m	class:http_conn	access:private
+m_request	http_conn.h	/^    HTTP_CODE m_request;$/;"	m	class:http_conn	access:private
+m_request	req_conn.h	/^    HTTP_CODE m_request;$/;"	m	class:http_conn	access:private
+m_sem	locker.h	/^    sem_t m_sem;$/;"	m	class:sem	access:private
+m_sem	threadlock.h	/^        sem_t m_sem;$/;"	m	class:CSemaphore	access:private
+m_sockfd	http_conn.h	/^    int m_sockfd;$/;"	m	class:http_conn	access:private
+m_sockfd	req_conn.h	/^    int m_sockfd;$/;"	m	class:http_conn	access:private
+m_standbyIP	threadpool.h	/^    const char *m_standbyIP;$/;"	m	class:threadpool	access:private
+m_start_line	http_conn.h	/^    int m_start_line;$/;"	m	class:http_conn	access:private
+m_start_line	req_conn.h	/^    int m_start_line;$/;"	m	class:http_conn	access:private
+m_stop	threadpool.h	/^    bool m_stop;$/;"	m	class:threadpool	access:private
+m_thread_number	threadpool.h	/^    int m_thread_number;$/;"	m	class:threadpool	access:private
+m_threads	threadpool.h	/^    pthread_t* m_threads;$/;"	m	class:threadpool	access:private
+m_url	http_conn.h	/^    char* m_url;$/;"	m	class:http_conn	access:private
+m_url	req_conn.h	/^    char* m_url;$/;"	m	class:http_conn	access:private
+m_user_count	http_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+m_user_count	http_conn.h	/^    static int m_user_count;$/;"	m	class:http_conn	access:public
+m_user_count	req_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+m_user_count	req_conn.h	/^    static int m_user_count;$/;"	m	class:http_conn	access:public
+m_version	http_conn.h	/^    char* m_version;$/;"	m	class:http_conn	access:private
+m_version	req_conn.h	/^    char* m_version;$/;"	m	class:http_conn	access:private
+m_workqueue	threadpool.h	/^    std::list< T* > m_workqueue;$/;"	m	class:threadpool	access:private
+m_write_buf	http_conn.h	/^    char m_write_buf[ WRITE_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+m_write_buf	req_conn.h	/^    char m_write_buf[ WRITE_BUFFER_SIZE ];$/;"	m	class:http_conn	access:private
+m_write_idx	http_conn.h	/^    int m_write_idx;$/;"	m	class:http_conn	access:private
+m_write_idx	req_conn.h	/^    int m_write_idx;$/;"	m	class:http_conn	access:private
+main	main.cpp	/^int main( int argc, char* argv[] )$/;"	f	signature:( int argc, char* argv[] )
+modfd	http_conn.cpp	/^void modfd( int epollfd, int fd, int ev )$/;"	f	signature:( int epollfd, int fd, int ev )
+modfd	req_conn.cpp	/^void modfd( int epollfd, int fd, int ev )$/;"	f	signature:( int epollfd, int fd, int ev )
+ok_200_title	http_conn.cpp	/^const char* ok_200_title = "OK";$/;"	v
+ok_200_title	req_conn.cpp	/^const char* ok_200_title = "OK";$/;"	v
+parse_content	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content( char* text )$/;"	f	class:http_conn	signature:( char* text )
+parse_content	http_conn.h	/^    HTTP_CODE parse_content( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+parse_content	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content( char* text )$/;"	f	class:http_conn	signature:( char* text )
+parse_content	req_conn.h	/^    HTTP_CODE parse_content( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+parse_headers	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers( char* text )$/;"	f	class:http_conn	signature:( char* text )
+parse_headers	http_conn.h	/^    HTTP_CODE parse_headers( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+parse_headers	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers( char* text )$/;"	f	class:http_conn	signature:( char* text )
+parse_headers	req_conn.h	/^    HTTP_CODE parse_headers( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+parse_line	http_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn	signature:()
+parse_line	http_conn.h	/^    LINE_STATUS parse_line();$/;"	p	class:http_conn	access:private	signature:()
+parse_line	req_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn	signature:()
+parse_line	req_conn.h	/^    LINE_STATUS parse_line();$/;"	p	class:http_conn	access:private	signature:()
+parse_request_line	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line( char* text )$/;"	f	class:http_conn	signature:( char* text )
+parse_request_line	http_conn.h	/^    HTTP_CODE parse_request_line( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+parse_request_line	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line( char* text )$/;"	f	class:http_conn	signature:( char* text )
+parse_request_line	req_conn.h	/^    HTTP_CODE parse_request_line( char* text );$/;"	p	class:http_conn	access:private	signature:( char* text )
+post	locker.h	/^    bool post()$/;"	f	class:sem	access:public	signature:()
+post	threadlock.h	/^        bool post()$/;"	f	class:CSemaphore	access:public	signature:()
+process	http_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn	signature:()
+process	http_conn.h	/^    void process();$/;"	p	class:http_conn	access:public	signature:()
+process	req_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn	signature:()
+process	req_conn.h	/^    void process();$/;"	p	class:http_conn	access:public	signature:()
+process_read	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn	signature:()
+process_read	http_conn.h	/^    HTTP_CODE process_read();$/;"	p	class:http_conn	access:private	signature:()
+process_read	req_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn	signature:()
+process_read	req_conn.h	/^    HTTP_CODE process_read();$/;"	p	class:http_conn	access:private	signature:()
+process_write	http_conn.cpp	/^bool http_conn::process_write( HTTP_CODE ret )$/;"	f	class:http_conn	signature:( HTTP_CODE ret )
+process_write	http_conn.h	/^    bool process_write( HTTP_CODE ret );$/;"	p	class:http_conn	access:private	signature:( HTTP_CODE ret )
+process_write	req_conn.cpp	/^bool http_conn::process_write( HTTP_CODE ret )$/;"	f	class:http_conn	signature:( HTTP_CODE ret )
+process_write	req_conn.h	/^    bool process_write( HTTP_CODE ret );$/;"	p	class:http_conn	access:private	signature:( HTTP_CODE ret )
+read	http_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn	signature:()
+read	http_conn.h	/^    bool read();$/;"	p	class:http_conn	access:public	signature:()
+read	req_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn	signature:()
+read	req_conn.h	/^    bool read();$/;"	p	class:http_conn	access:public	signature:()
+removefd	http_conn.cpp	/^void removefd( int epollfd, int fd )$/;"	f	signature:( int epollfd, int fd )
+removefd	main.cpp	/^extern int removefd( int epollfd, int fd );$/;"	p	file:	signature:( int epollfd, int fd )
+removefd	main.h	/^extern int removefd( int epollfd, int fd );$/;"	p	signature:( int epollfd, int fd )
+removefd	req_conn.cpp	/^void removefd( int epollfd, int fd )$/;"	f	signature:( int epollfd, int fd )
+run	threadpool.h	/^    void run();$/;"	p	class:threadpool	access:private	signature:()
+run	threadpool.h	/^void threadpool< T >::run()$/;"	f	class:threadpool	signature:()
+sem	locker.h	/^    sem()$/;"	f	class:sem	access:public	signature:()
+sem	locker.h	/^class sem$/;"	c
+sem::m_sem	locker.h	/^    sem_t m_sem;$/;"	m	class:sem	access:private
+sem::post	locker.h	/^    bool post()$/;"	f	class:sem	access:public	signature:()
+sem::sem	locker.h	/^    sem()$/;"	f	class:sem	access:public	signature:()
+sem::wait	locker.h	/^    bool wait()$/;"	f	class:sem	access:public	signature:()
+sem::~sem	locker.h	/^    ~sem()$/;"	f	class:sem	access:public	signature:()
+setnonblocking	http_conn.cpp	/^int setnonblocking( int fd )$/;"	f	signature:( int fd )
+setnonblocking	req_conn.cpp	/^int setnonblocking( int fd )$/;"	f	signature:( int fd )
+show_error	main.cpp	/^void show_error( int connfd, const char* info )$/;"	f	signature:( int connfd, const char* info )
+show_error	main.cpp	/^void show_error( int connfd, const char* info );$/;"	p	file:	signature:( int connfd, const char* info )
+show_error	main.h	/^void show_error( int connfd, const char* info );$/;"	p	signature:( int connfd, const char* info )
+signal	locker.h	/^    bool signal()$/;"	f	class:cond	access:public	signature:()
+signal	threadlock.h	/^        bool signal()$/;"	f	class:CCondition	access:public	signature:()
+threadpool	threadpool.h	/^    threadpool( const char *remote_mainIP, const char *remote_standbyIP, int thread_number = 8, int max_requests = 10000 );$/;"	p	class:threadpool	access:public	signature:( const char *remote_mainIP, const char *remote_standbyIP, int thread_number = 8, int max_requests = 10000 )
+threadpool	threadpool.h	/^class threadpool$/;"	c
+threadpool	threadpool.h	/^threadpool< T >::threadpool( const char *remote_mainIP, const char *remote_standbyIP, int thread_number, int max_requests, ) : $/;"	f	class:threadpool	signature:( const char *remote_mainIP, const char *remote_standbyIP, int thread_number, int max_requests, )
+threadpool::LoginPvaServer	threadpool.h	/^    bool LoginPvaServer(const char *mainIP, const char *standbyIP);$/;"	p	class:threadpool	access:private	signature:(const char *mainIP, const char *standbyIP)
+threadpool::LoginPvaServer	threadpool.h	/^bool threadpool< T >::LoginPvaServer(const char *mainIP, const char *standbyIP)$/;"	f	class:threadpool	signature:(const char *mainIP, const char *standbyIP)
+threadpool::ReadPvaEpoll	threadpool.h	/^    void ReadPvaEpoll();$/;"	p	class:threadpool	access:private	signature:()
+threadpool::ReadPvaEpoll	threadpool.h	/^void threadpool< T >::ReadPvaEpoll()$/;"	f	class:threadpool	signature:()
+threadpool::SetupEpollListen	threadpool.h	/^    bool SetupEpollListen();$/;"	p	class:threadpool	access:private	signature:()
+threadpool::append	threadpool.h	/^    bool append( T* request );$/;"	p	class:threadpool	access:public	signature:( T* request )
+threadpool::append	threadpool.h	/^bool threadpool< T >::append( T* request )$/;"	f	class:threadpool	signature:( T* request )
+threadpool::get_threads	threadpool.h	/^    pthread_t* get_threads(){ return m_threads; }$/;"	f	class:threadpool	access:public	signature:()
+threadpool::m_epollfd	threadpool.h	/^    int m_epollfd;$/;"	m	class:threadpool	access:private
+threadpool::m_mainIP	threadpool.h	/^    const char *m_mainIP;$/;"	m	class:threadpool	access:private
+threadpool::m_max_requests	threadpool.h	/^    int m_max_requests;$/;"	m	class:threadpool	access:private
+threadpool::m_queuelocker	threadpool.h	/^    locker m_queuelocker;$/;"	m	class:threadpool	access:private
+threadpool::m_queuestat	threadpool.h	/^    sem m_queuestat;$/;"	m	class:threadpool	access:private
+threadpool::m_standbyIP	threadpool.h	/^    const char *m_standbyIP;$/;"	m	class:threadpool	access:private
+threadpool::m_stop	threadpool.h	/^    bool m_stop;$/;"	m	class:threadpool	access:private
+threadpool::m_thread_number	threadpool.h	/^    int m_thread_number;$/;"	m	class:threadpool	access:private
+threadpool::m_threads	threadpool.h	/^    pthread_t* m_threads;$/;"	m	class:threadpool	access:private
+threadpool::m_workqueue	threadpool.h	/^    std::list< T* > m_workqueue;$/;"	m	class:threadpool	access:private
+threadpool::run	threadpool.h	/^    void run();$/;"	p	class:threadpool	access:private	signature:()
+threadpool::run	threadpool.h	/^void threadpool< T >::run()$/;"	f	class:threadpool	signature:()
+threadpool::threadpool	threadpool.h	/^    threadpool( const char *remote_mainIP, const char *remote_standbyIP, int thread_number = 8, int max_requests = 10000 );$/;"	p	class:threadpool	access:public	signature:( const char *remote_mainIP, const char *remote_standbyIP, int thread_number = 8, int max_requests = 10000 )
+threadpool::threadpool	threadpool.h	/^threadpool< T >::threadpool( const char *remote_mainIP, const char *remote_standbyIP, int thread_number, int max_requests, ) : $/;"	f	class:threadpool	signature:( const char *remote_mainIP, const char *remote_standbyIP, int thread_number, int max_requests, )
+threadpool::worker	threadpool.h	/^    static void* worker( void* arg );$/;"	p	class:threadpool	access:private	signature:( void* arg )
+threadpool::worker	threadpool.h	/^void* threadpool< T >::worker( void* arg )$/;"	f	class:threadpool	signature:( void* arg )
+threadpool::~threadpool	threadpool.h	/^    ~threadpool();$/;"	p	class:threadpool	access:public	signature:()
+threadpool::~threadpool	threadpool.h	/^threadpool< T >::~threadpool()$/;"	f	class:threadpool	signature:()
+unlock	locker.h	/^    bool unlock()$/;"	f	class:locker	access:public	signature:()
+unlock	threadlock.h	/^        bool unlock()$/;"	f	class:CThreadMutex	access:public	signature:()
+unmap	http_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn	signature:()
+unmap	http_conn.h	/^    void unmap();$/;"	p	class:http_conn	access:private	signature:()
+unmap	req_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn	signature:()
+unmap	req_conn.h	/^    void unmap();$/;"	p	class:http_conn	access:private	signature:()
+wait	locker.h	/^    bool wait()$/;"	f	class:cond	access:public	signature:()
+wait	locker.h	/^    bool wait()$/;"	f	class:sem	access:public	signature:()
+wait	threadlock.h	/^        bool wait()$/;"	f	class:CCondition	access:public	signature:()
+wait	threadlock.h	/^        bool wait()$/;"	f	class:CSemaphore	access:public	signature:()
+worker	threadpool.h	/^    static void* worker( void* arg );$/;"	p	class:threadpool	access:private	signature:( void* arg )
+worker	threadpool.h	/^void* threadpool< T >::worker( void* arg )$/;"	f	class:threadpool	signature:( void* arg )
+write	http_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn	signature:()
+write	http_conn.h	/^    bool write();$/;"	p	class:http_conn	access:public	signature:()
+write	req_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn	signature:()
+write	req_conn.h	/^    bool write();$/;"	p	class:http_conn	access:public	signature:()
+~CCondition	threadlock.h	/^        ~CCondition()$/;"	f	class:CCondition	access:public	signature:()
+~CSemaphore	threadlock.h	/^        ~CSemaphore()$/;"	f	class:CSemaphore	access:public	signature:()
+~CThreadMutex	threadlock.h	/^        ~CThreadMutex()$/;"	f	class:CThreadMutex	access:public	signature:()
+~cond	locker.h	/^    ~cond()$/;"	f	class:cond	access:public	signature:()
+~http_conn	http_conn.h	/^    ~http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+~http_conn	req_conn.h	/^    ~http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+~locker	locker.h	/^    ~locker()$/;"	f	class:locker	access:public	signature:()
+~sem	locker.h	/^    ~sem()$/;"	f	class:sem	access:public	signature:()
+~threadpool	threadpool.h	/^    ~threadpool();$/;"	p	class:threadpool	access:public	signature:()
+~threadpool	threadpool.h	/^threadpool< T >::~threadpool()$/;"	f	class:threadpool	signature:()
